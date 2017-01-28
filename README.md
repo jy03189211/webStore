@@ -1,4 +1,6 @@
-# Register
+# Diary
 
-abc123
+this is a gitbook for recording the process of the web store project.
+
+
 
