@@ -10,8 +10,6 @@ The 'is\_valid\(\)' always false has been solved.
 
 problem defined:
 
-
-
 **How does the 'fields' in inner class work?**
 
 The generated`Form`class will have a form field for every model field specified,
@@ -25,4 +23,8 @@ manually writing passwords fields in the form classes
 **password store and management**
 
 [ https://docs.djangoproject.com/en/1.10/topics/forms/modelforms/](https://docs.djangoproject.com/en/1.10/topics/auth/passwords/#how-django-stores-passwords)
+
+
+
+
 
