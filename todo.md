@@ -24,9 +24,12 @@ manually writing passwords fields in the form classes
 
 write save\(\) after set\_password\(\)
 
-
-
 sub Features:
 
 User authentication \(login & log out\)
+
+
+## show me the money
+
+
 
