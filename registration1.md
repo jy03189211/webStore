@@ -1,12 +1,10 @@
 # FirstChapter
 
-Nowtheregisterformhasbeenwritteninpythonfile
+Now there register form has been written in python file
+it would be rendered by url.py within the login.html template.
 
-itwouldberenderedbyurl.pywithinthelogin.htmltemplate.
+A user is now able to register their username,password and email to the database
 
-Auserisnowabletoregistertheirusername,passwordandemailtothedatabase
-
-The'is\_valid\(\)'alwaysfalsehasbeensolved.
 
 
 ## problem solved:
