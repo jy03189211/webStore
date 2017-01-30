@@ -28,9 +28,7 @@ manuallywritingpasswordsfieldsintheformclasses
 
 [https://docs.djangoproject.com/en/1.10/topics/forms/modelforms/](https://docs.djangoproject.com/en/1.10/topics/auth/passwords/#how-django-stores-passwords)
 
-## problemtobesolved:
+## 
 
-**howtosavepassword\(currentlyexplicitlyandnothashedstoredinthedatabase\)**
 
-Userauthentication,loginlogout
 
