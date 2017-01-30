@@ -8,19 +8,19 @@ A user is now able to register their username, password and email to the databas
 
 The 'is\_valid\(\)' always false has been solved.
 
-
-
 problem defined:
+
+
 
 **How does the 'fields' in inner class work?**
 
-The generated`Form `class will have a form field for every model field specified,
+The generated`Form`class will have a form field for every model field specified,
 
- in the order specified in the `fields `attribute.
+in the order specified in the `fields`attribute.
 
 **password widget is not hiding the password**
 
-manually writing passwords in the form classes
+manually writing passwords fields in the form classes
 
 **password store and management**
 
