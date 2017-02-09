@@ -9,5 +9,10 @@ class based views provide a generic FormView but for all intents and purposes it
 
 
 
+problem define:
+
+one LoginView, two form submitted will callbacks the same post methods\(how to use two urls for two forms in one view\)
+
+Email registeration
 
 
