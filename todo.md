@@ -11,7 +11,11 @@ class based views provide a generic FormView but for all intents and purposes it
 
 **problem define:
 **
-one LoginView, two form submitted will callbacks the same post methods\(how to use two urls for two forms in one view\)
+**one LoginView, two form submitted will callbacks the same post methods\(how to use two urls for two forms in one view\)**
+
+solved by give name parameter to the button, when the post is called back, do if judgement to these two buttons.
+
+we decided to use function based view, since button name judgement is a bit hack.
 
 Email registeration
 
