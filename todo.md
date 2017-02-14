@@ -30,11 +30,27 @@ page does not redirect to expected
 
 the href is overriden
 
-
-
 **solution**:
 
 use the allauth tag
 
 then style the facebook link manually
+
+
+
+
+
+**third party provided link override and redirect **
+
+for **override**: write the link before: 
+
+url\(r'^accounts/', include\('allauth.urls'\)\),
+
+for **redirect**:
+
+from django.views.generic.base import RedirectView
+
+url\(r'^accounts/social/login/cancelled/$', RedirectView.as\_view\(pattern\_name='login', permanent=False\), name='facebook\_login\_cancel'\),
+
+it works for both class based view and function based view
 
