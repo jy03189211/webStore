@@ -10,8 +10,6 @@ problem define:
 
 Email registeration
 
-
-
 two solution
 
 allauth
