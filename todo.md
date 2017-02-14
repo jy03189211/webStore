@@ -36,21 +36,17 @@ use the allauth tag
 
 then style the facebook link manually
 
-
-
-
-
 **third party provided link override and redirect **
 
-for **override**: write the link before: 
+for **override**: write the link before:
 
-url\(r'^accounts/', include\('allauth.urls'\)\),
+`url(r'^accounts/', include('allauth.urls')),`
 
 for **redirect**:
 
-from django.views.generic.base import RedirectView
+`from django.views.generic.base import RedirectView`
 
-url\(r'^accounts/social/login/cancelled/$', RedirectView.as\_view\(pattern\_name='login', permanent=False\), name='facebook\_login\_cancel'\),
+`url(r'^accounts/social/login/cancelled/$', RedirectView.as_view(pattern_name='login', permanent=False), name='facebook_login_cancel'),`
 
 it works for both class based view and function based view
 
