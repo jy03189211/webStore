@@ -12,7 +12,7 @@ Email registeration
 
 two solution
 
-allauth
+**allauth **
 
 ```
 {% load socialaccount %}
@@ -20,5 +20,21 @@ allauth
 <a href="{% provider_login_url "facebook" method="js_sdk" %}" >Facebook</a>
 ```
 
+when class attribute is added for the link
 
+```
+class="fb-login-button" 
+```
+
+page does not redirect to expected
+
+the href is overriden
+
+
+
+**solution**:
+
+use the allauth tag
+
+then style the facebook link manually
 
