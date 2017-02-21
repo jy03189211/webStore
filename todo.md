@@ -2,11 +2,11 @@ TODO
 
 ## sub Features:
 
-User authentication \(login & log out\)
+### **Task:**
 
-problem define:
+**User authentication \(login & log out\)**
 
-**one LoginView, two form submitted will callbacks the same post methods\(how to use two urls for two forms in one view\)**
+**Q:** one LoginView, two form submitted will callbacks the same post methods\(how to use two urls for two forms in one view\)
 
 Email registeration
 
@@ -50,11 +50,13 @@ for **redirect**:
 
 it works for both class based view and function based view
 
-
-
-Task:
+### **Task:**
 
 **share game score with third party api**
 
 **Q**:how to get the score of the game from other website ?
+
+**Q**: When new game is submitted, in the iframe, not showing correctly, showing page not found
+
+
 
