@@ -50,3 +50,11 @@ for **redirect**:
 
 it works for both class based view and function based view
 
+
+
+Task:
+
+**share game score with third party api**
+
+**Q**:how to get the score of the game from other website ?
+
