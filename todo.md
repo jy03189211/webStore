@@ -58,5 +58,5 @@ it works for both class based view and function based view
 
 **Q**: When new game is submitted, in the iframe, not showing correctly, showing page not found
 
-
+**B: **Category list is required to fill but not providing than terms.
 
